@@ -32,7 +32,7 @@ module.exports = {
       .setColor("BLUE")
       .setDescription(allcmds)
       .setFooter(
-        `To get info of each command you can do ${client.config.prefix}help [command] | Hander by ItzCutePikachu#2006`
+        `To get info of each command you can do ${client.config.prefix}help [command] | Hander by SUNSHINE#5158`
       );
 
     if (!args[0]) return message.channel.send(embed);
